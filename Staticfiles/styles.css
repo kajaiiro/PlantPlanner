@@ -1,0 +1,54 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #e6f8b2;
+    overflow: hidden;
+}
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #704e2e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #CDE77F;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /* Align the contents to center */
+  .container {
+    text-align: center;
+  }
+
+/* Add padding to inputfields */
+  .inputfield {
+      padding: 5px;
+  }
+
+  /* Add a color to the footer and fix position */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #04AA6D;
+    text-align: center;
+}
+  /* Remove default dots from list */
+#footerList {
+    list-style-type: none;
+}
+   .footerItem {
+    text-decoration: none;
+    color: #CDE77F;
+   }
