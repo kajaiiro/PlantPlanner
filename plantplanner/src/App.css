@@ -1,0 +1,55 @@
+.App {
+  font-family: Source Sans Pro;
+}
+.PlantCard{
+  background-color: #CDE77F;
+  margin: auto;
+  width: 50%;
+  padding: 2rem;
+}
+h2{
+    text-align: center;
+}
+#textField{
+  max-width:50%;
+  display: inline-block;
+  text-align: center;
+  font-weight:bold;
+  display:inline-block;
+}
+#imgDiv{
+  display:inline-block;
+  width:50%;
+}
+#indicatorCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    height: 150px;
+}
+.indicator{
+  border: 1px solid #000;
+  
+  padding: 5px;
+  background-color: #E6F8B2;
+}
+.colorInd{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+}
+#color1{
+  background-color: blue;
+}
+#color2{
+    background-color: red;
+}
+#color3{
+    background-color: green;
+}
+#color4{
+    background-color: yellow;
+}
