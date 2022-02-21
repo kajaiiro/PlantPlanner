@@ -53,3 +53,19 @@ h2{
 #color4{
     background-color: yellow;
 }
+
+.page-footer {
+  text-align: center;
+  background-color: #709176;
+}
+
+.page-footer ul {
+  display: inline-block;
+  list-style: none;
+  /* Padding to center list */
+  padding: 5px 0 0 0;
+}
+
+.page-footer li {
+  padding: 0 0 5px 0;
+}

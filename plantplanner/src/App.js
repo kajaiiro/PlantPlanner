@@ -18,6 +18,20 @@ export default function App() {
 <div class="indicator">Jotain ja jotain:<div class="colorInd" id="color4"></div></div>
       </div>
 
+  <footer class="page-footer">
+    <div>
+      <h2>Plantplanner</h2>
+      <ul>
+          <a href="https://plantplanner287818493.wordpress.com/">
+          <li>Wordpress</li>
+          </a>
+          <a href="https://github.com/EdvardJ/PlantPlanner">
+          <li>Github</li>
+          </a>
+      </ul>
+    </div>
+  </footer>
+
 
  </div>);
 }
