@@ -13,7 +13,6 @@ We're four front-end web developments students. Goal of this dynamic group proje
 
 ## Launch
 
-1. Make sure you're in PlantPlanner/plantplanner folder.
-2. Run command `npm install react-scripts`
-3. Run command `npm start`
+1. Run command `npm install react-scripts`
+2. Run command `npm start`
 
