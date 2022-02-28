@@ -3,7 +3,19 @@ import './App.css';
 export default function App() {
   
   return (
+
 <div class="PlantCard">
+
+<header class="page-header">
+    <div>
+      <img alt="PlantPlannerLogoImg"></img>
+    </div>
+    <div>
+      <p>Haku</p>
+      <p>Menu</p>
+    </div>
+  </header>
+
   <div id="imgDiv">
     <img alt="plantImg"></img>
     <h2>Kasvin nimi</h2>
@@ -33,5 +45,6 @@ export default function App() {
   </footer>
 
 
- </div>);
+ </div>
+ );
 }

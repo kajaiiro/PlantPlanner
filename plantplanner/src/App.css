@@ -54,6 +54,19 @@ h2{
     background-color: yellow;
 }
 
+.page-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+.page-header div {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
 .page-footer {
   text-align: center;
   background-color: #709176;
