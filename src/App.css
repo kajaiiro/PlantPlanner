@@ -72,6 +72,11 @@ h2{
   background-color: #709176;
 }
 
+.page-footer h2 {
+  /* Remove gap between content div and footer div h2 */
+  margin: 0 auto;
+}
+
 .page-footer ul {
   display: inline-block;
   list-style: none;
@@ -79,6 +84,8 @@ h2{
   padding: 5px 0 0 0;
 }
 
-.page-footer li {
+.page-footer li, a {
   padding: 0 0 5px 0;
+  color: black;
+  text-decoration: none;
 }
