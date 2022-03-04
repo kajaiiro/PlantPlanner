@@ -14,6 +14,17 @@ export default function App() {
   </div>
 </header> {/* ./page-header */}
 
+<div class="slider">
+  <div id="imgDiv">
+    <img alt="plantImg"></img>
+    <h2>Kasvin nimi</h2>
+  </div> {/* ./imgDiv */}
+  <p>Kastelutiheys</p>
+  <input type="range" min="1" max="100" value="50"/>
+  <p>Lannoitus</p>
+  <input type="range" min="1" max="100" value="50"/>
+</div> {/* ./slider */}
+
 <div class="PlantCard">
   <div id="imgDiv">
     <img alt="plantImg"></img>
