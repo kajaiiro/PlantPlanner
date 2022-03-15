@@ -14,6 +14,18 @@ export default function App() {
   </div>
 </header> {/* ./page-header */}
 
+<div class="landing-page">
+  <div>
+  <h1>PlantPlanner</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in. Quisque sagittis quam nec pellentesque fermentum. Phasellus ullamcorper dui nec efficitur scelerisque. Vestibulum pulvinar tortor ligula, vel scelerisque metus ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in.</p>
+  </div>
+  <img alt="landing page image"></img>
+  <img alt="landing page image"></img>
+  <div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in. Quisque sagittis quam nec pellentesque fermentum. Phasellus ullamcorper dui nec efficitur scelerisque. Vestibulum pulvinar tortor ligula, vel scelerisque metus ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in.</p>
+  </div>
+</div> {/* ./langing-page */}
+
 <div class="slider">
   <div id="imgDiv">
     <img alt="plantImg"></img>

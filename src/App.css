@@ -1,7 +1,7 @@
 .App {
   font-family: Source Sans Pro;
 }
-.PlantCard, .slider{
+.PlantCard, .slider, .landing-page{
   background-color: #CDE77F;
   margin: auto;
   width: 50%;
