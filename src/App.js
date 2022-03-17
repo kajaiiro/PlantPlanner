@@ -14,15 +14,20 @@ export default function App() {
   </div>
 </header> {/* ./page-header */}
 
-<div class="landing-page">
+<div class="landing-page flex">
   <div>
   <h1>PlantPlanner</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in. Quisque sagittis quam nec pellentesque fermentum. Phasellus ullamcorper dui nec efficitur scelerisque. Vestibulum pulvinar tortor ligula, vel scelerisque metus ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in.</p>
   </div>
-  <img alt="landing page image"></img>
-  <img alt="landing page image"></img>
+  <img alt="landing page"></img>
+  <img alt="landing page"></img>
   <div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in. Quisque sagittis quam nec pellentesque fermentum. Phasellus ullamcorper dui nec efficitur scelerisque. Vestibulum pulvinar tortor ligula, vel scelerisque metus ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in.</p>
+  <form>
+    <input placeholder="Käyttäjänimi"></input> <br/>
+    <input placeholder="Salasana"></input> <br/>
+    <button>Kirjaudu</button> <br/>
+    <span>Rekisteröidy</span>
+  </form>
   </div>
 </div> {/* ./langing-page */}
 
@@ -31,9 +36,9 @@ export default function App() {
     <img alt="plantImg"></img>
     <h2>Kasvin nimi</h2>
   </div> {/* ./imgDiv */}
-  <p>Kastelutiheys</p>
+  <span>Kastelutiheys</span>
   <input type="range" min="1" max="100" value="50"/>
-  <p>Lannoitus</p>
+  <span>Lannoitus</span>
   <input type="range" min="1" max="100" value="50"/>
 </div> {/* ./slider */}
 
