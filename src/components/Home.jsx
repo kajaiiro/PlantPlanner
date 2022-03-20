@@ -5,21 +5,36 @@ function Home() {
     <div className="home">
       <div class="container">
         
-            <div>
-  <h1>PlantPlanner</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in. Quisque sagittis quam nec pellentesque fermentum. Phasellus ullamcorper dui nec efficitur scelerisque. Vestibulum pulvinar tortor ligula, vel scelerisque metus ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat efficitur eros, at imperdiet enim eleifend in.</p>
-  <img alt="landing page"></img>
-  <img alt="landing page"></img>
-  </div>
   <div>
-  <form >
-    <input placeholder="Käyttäjänimi"></input> <br/>
-    <input placeholder="Salasana"></input> <br/>
-    <button>Kirjaudu</button> <br/>
-    <span>Rekisteröidy</span>
-  </form>
+  <h1>Introduction:</h1>
+  <p>We're four front-end web developments students. Goal of this dynamic group project is to learn how to develop a web service as a group and learn its technologies.</p>
+<br/>Technologies<br/>
+<ul>
+<li>HTML 5</li>
+<li>CSS 3</li>
+<li>Javascript</li>
+<li>React</li>
+</ul>
+  <img alt="landing page"></img>
+  <img alt="landing page"></img>
   </div>
-          </div>
+  <div className="login-wrapper">
+      <h1>Please Log In</h1>
+      <form>
+        <label>
+          <p>Username</p>
+          <input type="text" />
+        </label><br/>
+        <label>
+          <p>Password</p>
+          <input type="password" />
+        </label>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    </div>
         </div>
      
   );

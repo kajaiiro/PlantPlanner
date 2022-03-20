@@ -11,7 +11,7 @@ function Post() {
   return (
     <div className="home">
       <div class="container">
-        <h1 className="mt-5">Kasvikortti</h1>
+        
         <h6 className="mb-5">The post slug is, {postSlug}</h6>
         <div class="slider">
   <div id="imgDiv">

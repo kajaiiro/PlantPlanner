@@ -96,6 +96,7 @@ h2{
 }
 
 .page-footer {
+  
   text-align: center;
   background-color: #709176;
 }
@@ -116,4 +117,7 @@ h2{
   padding: 0 0 5px 0;
   color: black;
   text-decoration: none;
+}
+.navbar{
+  background-color: #709176;
 }
