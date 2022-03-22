@@ -1,12 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from '../static_files/Logo.png'
+import PlantPlanner from '../static_files/PlantPlanner.png'
 function Navigation() {
     return (
       <div className="navigation">
         <nav className="navbar navbar-expand">
           <div className="container">
             <NavLink className="navbar-brand" to="/">
-            <img alt="PlantPlannerLogoImg"></img>
+            <img src={logo} alt="PlantPlannerLogoImg"></img>
+            <img src={PlantPlanner} alt="LogoText"></img>
             </NavLink>
             <div>
               <ul className="navbar-nav ml-auto">
