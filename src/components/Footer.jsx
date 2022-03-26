@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <footer class="page-footer">
-        <div class="container">
+        <div class="LoginContainer">
           <p class="m-0 text-center text-white">
           <h2>Plantplanner</h2>
     <ul>

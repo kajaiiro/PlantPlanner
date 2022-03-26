@@ -8,8 +8,8 @@ function Navigation() {
         <nav className="navbar navbar-expand">
           <div className="container">
             <NavLink className="navbar-brand" to="/">
-            <img src={logo} alt="PlantPlannerLogoImg"></img>
-            <img src={PlantPlanner} alt="LogoText"></img>
+            <img id="navLogo" src={logo} alt="PlantPlannerLogoImg"></img>
+            <img id="navText"src={PlantPlanner} alt="LogoText"></img>
             </NavLink>
             <div>
               <ul className="navbar-nav ml-auto">

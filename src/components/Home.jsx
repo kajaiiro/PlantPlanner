@@ -1,11 +1,28 @@
 import React from "react";
 
+
 function Home() {
   return (
-    <div className="home">
-      <div class="container">
-        
-  <div>
+    //Wrapper
+<div className="home">
+
+<div className="login-page"> {/*Login */}
+      <div className="form">
+        <div className="login">
+          <div className="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form">
+          <input type="text" placeholder="username"/>
+          <input type="password" placeholder="password"/>
+          <button>login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+      </div>
+    </div> {/*Login */}
+    <div className="introduction">
   <h1>Introduction:</h1>
   <p>We're four front-end web developments students. Goal of this dynamic group project is to learn how to develop a web service as a group and learn its technologies.</p>
 <br/>Technologies<br/>
@@ -18,26 +35,11 @@ function Home() {
   <img alt="landing page"></img>
   <img alt="landing page"></img>
   </div>
-  <div className="login-wrapper">
-      <h1>Please Log In</h1>
-      <form>
-        <label>
-          <p>Username</p>
-          <input type="text" />
-        </label><br/>
-        <label>
-          <p>Password</p>
-          <input type="password" />
-        </label>
-        <div>
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-    </div>
-    </div>
-        </div>
-     
-  );
+
+
+
+</div> //Wrapper
+);
 }
 
 export default Home;
