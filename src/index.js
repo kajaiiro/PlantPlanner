@@ -7,8 +7,8 @@ import {
   Navigation,
   Footer,
   Home,
-  About,
-  Contact,
+  NewUser,
+  NewPlant,
   Plants,
   Posts,
   Post,
@@ -19,8 +19,8 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/NewUser" element={<NewUser />} />
+      <Route path="/NewPlant" element={<NewPlant />} />
       <Route path="/Plants" element={<Plants />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

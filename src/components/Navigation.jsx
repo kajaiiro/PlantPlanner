@@ -20,13 +20,13 @@ function Navigation() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/about">
-                    About
+                  <NavLink className="nav-link" to="/NewUser">
+                  NewUser
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/contact">
-                    Contact
+                  <NavLink className="nav-link" to="/NewPlant">
+                  NewPlant
                   </NavLink>
                 </li>
                 <li className="nav-item">

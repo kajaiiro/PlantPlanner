@@ -1,9 +1,9 @@
 import React from "react";
 
-function About() {
+function NewUser() {
   return (
       <div class="home">
-          <div className="create-user">
+          <div className="NewUser">
           <div class="d-flex justify-content-center">
           <form className="NewUser">
           <div class="row">
@@ -38,4 +38,4 @@ function About() {
   );
 }
 
-export default About;
+export default NewUser;

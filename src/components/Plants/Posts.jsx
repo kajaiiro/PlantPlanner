@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Posts() {
   return (
-    <div className="home">
-      <div class="form">
+    <div className="posts">
+      <div class="PlantPrev">
         <Link to="/Plants/this-is-a-post-title">
-          <div class="row align-items-center my-5">
+          <div class="row align-items-center">
           
               <h1 class="font-weight-light">Kasvikortti 1</h1>
               <p>
@@ -16,9 +16,9 @@ function Posts() {
 
         </Link>
       </div>
-      <div class="form">
+      <div class="PlantPrev">
         <Link to="/Plants/this-is-a-post-title">
-          <div class="row align-items-center my-5">
+          <div class="row align-items-center">
               <h1 class="font-weight-light">Kasvikortti 2</h1>
               <p>
                 Tähän "sneak peak" tekstiä
