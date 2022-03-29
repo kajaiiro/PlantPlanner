@@ -1,5 +1,6 @@
 
 import React from "react";
+const {getInitationTime} = require('../scripts')
 
 function NewPlant() {
   return (
@@ -41,6 +42,12 @@ function NewPlant() {
         </select>
       </div>
       </div>
+
+      <div class="col-50">
+      <p>Plant watered<br/><span id="js-initiation-time">-</span></p>
+          <button type="button" onClick={getInitationTime}>Water</button>
+      </div>
+      
     <div class="row justify-content-center">
       <input type="submit" value="Submit"></input>
     </div>
