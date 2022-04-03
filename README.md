@@ -13,6 +13,6 @@ We're four front-end web developments students. Goal of this dynamic group proje
 
 ## Launch
 
-1. Run command `npm install react-scripts`
+1. Run command `npm install`
 2. Run command `npm start`
 
