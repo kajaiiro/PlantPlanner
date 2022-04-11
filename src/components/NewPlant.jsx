@@ -1,6 +1,6 @@
 
 import React from "react";
-const {getInitationTime} = require('../scripts')
+const { getInitationTime } = require('../router/timer/timer.js')
 
 function NewPlant() {
   return (
