@@ -1,18 +1,16 @@
 import { useState} from "react";
-import {Link, useNavigate} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 
 
-function NewUser() {
+function Login() {
   const[data, setData] = useState({
-    firstName: "",
-    lastName: "",
     email: "",
     password: ""
   })
   const [error, setError]= useState("")
-  const navigate = useNavigate();
+
 
   const handleChange = ({currentTarget: input}) =>{
     setData({...data, [input.name]: input.value})
@@ -21,10 +19,11 @@ function NewUser() {
   const handleSubmit = async(e) => {
     e.preventDefault();
     try{
-      const url ="http://localhost:8080/api/users";
+      const url ="http://localhost:8080/api/auth";
       const {data: res} = await axios.post(url,data);
-      navigate("/login")
-      console.log(res.message)
+      localStorage.setItem("token", res.data);
+      window.location = "/"
+      
     }catch(error){
       if(error.response &&
          error.response.status >= 400 &&
@@ -38,37 +37,10 @@ function NewUser() {
   return (
       <div class="home">
           <div className="NewUser">
-
           
     <div class="row justify-content-center">
-    <Link to="/login">
-      <button type="button">
-        Sign in
-      </button>
-    </Link>
-    </div>
-    
-    <div class="row justify-content-center">
-      <form onSubmit={handleSubmit}>
-        <h1>Create Account</h1>
-        <input
-          type="text"
-          placeholder="First Name"
-          name='firstName'
-          onChange={handleChange}
-          value={data.firstName}
-          required
-          />
-          <br/>
-          <input
-          type="text"
-          placeholder="Last Name"
-          name='lastName'
-          onChange={handleChange}
-          value={data.lastName}
-          required
-          />
-          <br/>
+    <form onSubmit={handleSubmit}>
+        <h1>Login</h1>
           <input
           type="email"
           placeholder="Email"
@@ -88,11 +60,18 @@ function NewUser() {
           />
           <br/>
           {error && <div>{error}</div>}
-          <button type="submit">Sign Up</button>
+          <button type="submit">Sign In</button>
       </form>
     </div>
-
-
+    <br/>
+    <div class="row justify-content-center">
+    <h1>New here?</h1>
+    <Link to="/NewUser">
+      <button type="button">
+        Sign Up
+      </button>
+    </Link>
+    </div>
 
           </div>
         </div>
@@ -101,4 +80,4 @@ function NewUser() {
   );
 }
 
-export default NewUser;
+export default Login ;

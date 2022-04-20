@@ -6,3 +6,4 @@ export { default as NewPlant } from "./NewPlant";
 export { default as Plants } from "./Plants/Plants";
 export { default as Posts } from "./Plants/Posts";
 export { default as Post } from "./Plants/Post";
+export { default as Login } from "./Login"
