@@ -15,7 +15,13 @@ import {
   Login,
 } from "./components";
 
+import {
+  Admin
+} from './components/admin/admin.jsx';
+
+
 const user = localStorage.getItem("token");
+
 
 ReactDOM.render(
   <Router>
@@ -26,9 +32,10 @@ ReactDOM.render(
 			<Route path="/login" exact element={<Login />} />
 			<Route path="/" element={<Navigate replace to="/login" />} />
       <Route path="/NewPlant" element={<NewPlant />} />
-      <Route path="/Plants" element={<Plants />}>
+      <Route path="/Plants" element={<Plants />}/>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
+        <Route path="/admin" element={<Admin />}>
       </Route>
     </Routes>
     <Footer />
