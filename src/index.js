@@ -15,9 +15,7 @@ import {
   Login,
 } from "./components";
 
-import {
-  Admin
-} from './components/admin/admin.jsx';
+import Admin from './components/admin/admin.jsx';
 
 
 const user = localStorage.getItem("token");
