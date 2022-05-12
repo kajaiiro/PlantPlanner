@@ -13,6 +13,7 @@ import {
   Posts,
   Post,
   Login,
+  Slideshow
 } from "./components";
 
 const user = localStorage.getItem("token");
@@ -21,7 +22,9 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      {user && <Route path="/" exact element={<Home />} />}
+      {user && <Route path="/" exact element={
+      <Home />,
+      <Slideshow />} />}
 			<Route path="/NewUser" exact element={<NewUser />} />
 			<Route path="/login" exact element={<Login />} />
 			<Route path="/" element={<Navigate replace to="/login" />} />

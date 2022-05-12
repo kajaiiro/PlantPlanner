@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+function Slideshow() {
   return (
     //Wrapper
 <div className="home" class="text-center">
@@ -25,4 +25,4 @@ function Home() {
 );
 }
 
-export default Home;
+export default Slideshow;
