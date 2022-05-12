@@ -10,7 +10,7 @@ function NewPlant() {
             <div class="d-flex justify-content-center">
               <form className="NewUser">
 
-                <div class="row">
+                <div class="row justify-content-center"">
                   <h1>New Plant</h1>
                 </div>
 
