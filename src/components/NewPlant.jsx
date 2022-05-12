@@ -27,8 +27,6 @@ function NewPlant() {
                     
                 </div>
 
-                
-
                 <div class="row" >
                   <div class="row-10 ">  
                     <label for="Watering cycle">Watering cycle:</label>
