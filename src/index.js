@@ -22,9 +22,7 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      {user && <Route path="/" exact element={
-      <Home />,
-      <Slideshow />} />}
+      {user && <Route path="/" exact element={<Slideshow />} />}
 			<Route path="/NewUser" exact element={<NewUser />} />
 			<Route path="/login" exact element={<Login />} />
 			<Route path="/" element={<Navigate replace to="/login" />} />
