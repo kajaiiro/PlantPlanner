@@ -90,7 +90,7 @@ h2{
 }
 /* Footer */
 .page-footer {
-  position: fixed;
+  position: auto;
   height: 160px;
   width: 100%;
   bottom: 0;
@@ -260,3 +260,45 @@ input[type=submit] {
   background-color: #CDE77F;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)
 }
+
+/* ----- Slideshow -------*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: auto;
+  margin: auto;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.mySlides {
+}
+
+/* Number text (1/3
+  position: auto; etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  position: center;
+  top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* ------ End of slideshow css -------- */
