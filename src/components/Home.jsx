@@ -5,9 +5,13 @@ function Home() {
   return (
     //Wrapper
 <div className="home" class="text-center">
+<<<<<<< HEAD
   
   <div className="introduction">
     <Slideshow />
+=======
+  <div className="introduction">
+>>>>>>> 1db9b693f0406304352dfae5887d8112013383fa
     <h1>Introduction:</h1>
     <p>We are 3 full-stack web developer students from Taitotalo, Helsinki. The goal of this dynamic group project is to learn how to develop a web service as a group and learn about its technologies.</p>
     <p>Check out our dev blog here: 
