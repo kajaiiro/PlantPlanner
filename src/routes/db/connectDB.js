@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
-const dotenv = require('dotenv')
+// const dotenv = require('dotenv')
 // For execution path to work correctly you need to node connectDB.js inside this folder
-dotenv.config({ path: '../../config/config.env' })
+// dotenv.config({ path: '../../config/config.env' })
 
 const connectDB = async () => {
     try{
