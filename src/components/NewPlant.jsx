@@ -9,11 +9,7 @@ function NewPlant() {
             <div class="d-flex justify-content-center">
               <form className="NewUser">
 
-<<<<<<< HEAD
                 <div class="row justify-content-center">
-=======
-                <div class="row justify-content-center"">
->>>>>>> 1db9b693f0406304352dfae5887d8112013383fa
                   <h1>New Plant</h1>
                 </div>
 
